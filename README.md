@@ -23,8 +23,3 @@ To run experiments for time series forecasting:
 
 ##Preprocessing
 Data preprocessing steps including scaling, splitting, and transforming are handled by the utilities in the utils directory. Make sure to preprocess your data before running any experiments to ensure the models perform optimally.
-
-##Dependencies
-Ensure all dependencies are installed by running pip install -r requirements.txt (this file should be created and maintained with all necessary packages).
-
-For any issues or further information, please refer to the documentation provided within each script or reach out through the Issues section on this repository's page.
