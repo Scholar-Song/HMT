@@ -1,0 +1,21 @@
+{
+    "data_path": "../DongYGdata/",
+    "model_path": "./Model",
+    "num_epochs": 100,
+    "batch_size": 16,
+    "learning_rate": 0.0001,
+    "model_params": {
+        "hidden_size": 256,
+        "num_layers": 2,
+        "dropout": 0.2,
+    "t0":8},
+    "optimizer":{
+        "name":"Adam",
+        "lr": 0.001
+      },
+    "criterion":{
+        "name": "MSELoss"
+      },
+    "time_seqlength": 20,
+    "predict_t":6
+}
